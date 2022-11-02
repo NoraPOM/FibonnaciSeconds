@@ -10,6 +10,7 @@ import com.example.FibonnaciSeconds.Service.FibonacciSecondsService;
 
 @RestController
 @RequestMapping( "/fibonacciseconds")
+// los @ sirven para que Spring mapee los objetos en memoria
 public class FibonacciSecondsController {
 
     private final FibonacciSecondsService fibonacciSeconds;
