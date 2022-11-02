@@ -10,8 +10,6 @@ import com.example.FibonnaciSeconds.Service.FibonacciSecondsService;
 
 @RestController
 @RequestMapping( "/fibonacciseconds")
-//NPO: para validar commit con andre
-
 public class FibonacciSecondsController {
 
     private final FibonacciSecondsService fibonacciSeconds;
